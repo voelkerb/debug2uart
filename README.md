@@ -184,3 +184,7 @@ Example usage for around 11 32 bit signals with pruning enabled.
 | /bus2uart_core/uart_i/uart_tx_i/tx_clk_divider_i/Primitives    | 7           | 5          |
 | /bus2uart_core/uart_i/use_debouncer_g.debouncer_i/Primitives   | 3           | 4          |
 | **SUM: bus2uart_core**                                         | **200**     | **113**    |
+
+## Kudos
+
+Kudos go to Jakub Cabal for his clean [UART interface](https://github.com/jakubcabal/uart-for-fpga).
