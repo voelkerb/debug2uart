@@ -1,0 +1,77 @@
+{
+    "TOP_LEVEL" : {
+        "hex": "0x00",
+        "signals" : {
+            "Counter 0" : {
+                "hex": "0x00",
+                "type": "uint16"
+            },
+            "Counter 1" : {
+                "hex": "0x01",
+                "type": "uint16"
+            },
+            "Counter 2" : {
+                "hex": "0x02",
+                "type": "uint16"
+            },
+            "Counter 3" : {
+                "hex": "0x03",
+                "type": "uint16"
+            },
+            "Counter 4" : {
+                "hex": "0x04",
+                "type": "uint16"
+            },
+            "Counter 5" : {
+                "hex": "0x05",
+                "type": "uint16"
+            },
+            "Counter 6" : {
+                "hex": "0x06",
+                "type": "uint16"
+            },
+            "Counter 7" : {
+                "hex": "0x07",
+                "type": "uint16"
+            },
+            "BTN" : {
+                "hex": "0x08",
+                "type": "hex"
+            },
+            "LEDs" : {
+                "hex": "0x09",
+                "type": "hex"
+            },
+            "Nothing 0x00" : {
+                "hex": "0x0A",
+                "type": "hex"
+            }
+        }
+    },
+    "Delay" : {
+        "hex": "0x01",
+        "signals": {
+            "cnt" : {
+                "hex": "0x00",
+                "type": "uint16"
+            },
+            "CNT_MAX" : {
+                "hex": "0x01",
+                "type": "uint16"
+            },
+            "Fire" : {
+                "hex": "0x02",
+                "type": "hex"
+            },
+            "Nothing 0" : {
+                "hex": "0x03",
+                "type": "hex"
+            },
+            "Nothing 1" : {
+                "hex": "0x03",
+                "type": "hex",
+                "update":false
+            }
+        }
+    }
+}
