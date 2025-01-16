@@ -1,8 +1,8 @@
 # Debug2UART
 
-Universal Signal Tab for FPGAs. Allows you to readout any signal via a UART interface.
+Universal Signal Tap for FPGAs: Enables UART-based signal reading.
 
-Debugging faulty VHDL code is more or less a pain in the a**. Each FPGA Vendor offers a different tool suite to help with this problem. E.g. Microchip’s Libero offers SmartDebug Design which, however, is everything else than smart. It randomly crashes and, due to its post synthesis nature, does not allow to tab into passthrough signals. Only FlipFlop outputs are supported.
+Debugging faulty VHDL code can be challenging. Each FPGA vendor provides unique tools to address this issue. For instance, Microchip’s Libero offers SmartDebug Design, but its functionality is limited. It frequently crashes and, due to its post-synthesis nature, prevents access to intermediate signals. Only FlipFlop outputs are supported.
 
 To simplify the debugging process, we developed a small interface called bus2uart. This interface allows to connect a simple UART transceiver to two FPGA pins, over which the state of any signal can be read. While it currently does not support any triggering, it is still very useful when debugging FPGA designs.
 
